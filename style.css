@@ -1,0 +1,306 @@
+*{
+  margin:0;
+  padding:0;
+  /*height:100vh; */
+font-family: 'Inter', sans-serif;
+  line-height:160%;
+}
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+#logo{
+  padding:0px;
+  width:100px;
+  height:100px;
+    margin-left:20px;
+  cursor:pointer;
+}
+#myBtn {
+  
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 9999;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+
+ nav >div> h1{
+  margin:0;
+}
+nav{
+  background-color:	#F8F8FF;
+  margin:0px;
+  padding: 20px 50px;
+}
+.topo{
+  
+  padding:0px ;
+  
+}
+.topo h1{
+  margin-top:40px;
+  margin-left:150px;
+    position:absolute;
+  cursor:pointer;
+}
+.itemTopo{
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+  
+}
+.search{
+  display:flex;
+  align-items:center;
+  background-color:#C0C0C0;
+  padding:10px 20px;
+  border-radius:10px;
+}
+.searchInput{
+  
+  width:500px;
+  height:13px;
+  border:none;
+  background-color:transparent;
+}
+.searchInput::placeholder{
+  color:#696969;
+  border:none;
+}
+input:focus{
+  box-shadow: 0 0 0 0;
+    outline: 0;
+}
+.cartIcon{
+  cursor:pointer;
+   
+    padding:10px;
+      margin-right:10px
+}
+
+.menu{
+  
+ margin:0;
+ text-align:center;
+ background-color:pink;
+ justify-content: space-between;
+  
+  
+}
+div > ul > li{
+  cursor:pointer;
+  display:inline-block;
+  margin: 10px;
+
+}
+div > ul > li:hover{
+color:#DA70D6;
+}
+
+div > ul{
+  margin:0px;
+}
+
+.centro, footer{
+  background-image:linear-gradient(90deg, #F8F8FF 0%, #DA70D6 50%, #F8F8FF 100%);
+ 
+  
+}
+.slider {
+  display:block;
+    height: 300px;
+    width: 900px;
+    margin: auto;
+    position: relative;
+    cursor:pointer;
+
+  
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+  
+}
+
+.slider img {
+    margin: auto;
+    height: 300px;
+    width: 1000px;
+    vertical-align: center;
+    opacity: 0;
+    visibility: hidden;
+    border-radius:30px;
+
+}
+.slider input {
+    display: none;
+border: 2px solid #999
+  
+}
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+.slider label {
+    background-color:white;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+  
+  
+
+}
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+.produtos{
+  display:flex;
+  justify-content:space-around;
+flex-wrap: wrap;
+}
+.produto{
+ 
+cursor:pointer;
+  padding:20px;
+  box-shadow: 0 0 5px 0 white;
+  position:relative;
+  transition: transform .3s
+    
+}
+.produtos{
+  
+}
+.produtos:after,
+.produtos:before{
+  
+  content:"";
+
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  
+}  
+
+.produto:hover{
+transform: scale(1.1)
+  
+}
+
+.produto img{
+  
+  width:200px;
+  height:300px;
+
+}
+section> h1 {
+  
+  font-size:20px;
+  text-align:center;
+  
+}
+.precoProduto{
+  text-align:center;
+  font-size:17px;
+  
+}
+.precoFinal{
+  color:purple;
+  text-align:center;
+font-size:12px;
+
+}
+#cart{
+  
+  padding: 5px;
+  margin:0px 30px;
+  background-color:purple;
+  cursor:pointer;
+  
+}
+
+#PS4{
+  padding:40px;
+  margin-top: 20px;
+
+  border-top:4px ridge blue;
+}
+
+
+#SWITCH{
+  padding:40px;
+  
+  border-top:4px ridge red;
+}
+#PS5{
+  padding:40px;
+  
+  border-top:4px ridge white;
+}
+#XBOX{
+  padding:40px;
+  margin-top: 20px;
+  border-top:4px ridge green;
+}
+  background-color: red;
+  
+}
+
+
+
+.base{
+  background-color: purple;
+  
+}
+footer {
+  border-top: 2px solid green;
+}
+
+footer > ul > li{
+  cursor:pointer;
+  display:inline-block;
+  margin: 15px 50px 25px 100px;
+  justify-content:space-between;
+
+}
+footer > ul > li:hover{
+color:#F8F8FF;
+}
+
+footer > ul{
+  margin:0px;
+}
+
+#logo2{
+  padding:0px;
+  width:50px;
+  height:50px;
+  margin-left:20px;
+}
